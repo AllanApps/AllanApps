@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "MR ROBOT";
+    src: url("MR ROBOT.ttf");
+}
+
+.robot-text {
+    font-family: 'MR ROBOT', 'Lucida Console';
+    color: red;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(linux.jpg);
+    background-position:top center ;
+    font-family: sans-serif;
+}
+.asp{
+    color: rgb(82, 255, 47);
+    font-size: 18px;
+    text-decoration-style: wavy;
+    font-family: 'MR ROBOT', 'Lucida Console';
+}
+.allan{
+    color: rgb(255, 51, 0);
+    font-size: medium;
+    font-family: sans-serif;
+}
+.Createaccount{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    padding: 80px 40px;
+    height: 500px;
+    box-sizing: border-box;
+    background: rgba(0, 0,0,0.5);
+}
+.user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #efed40;
+    text-align: center;
+}
+.Createaccount p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.Createaccount input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Createaccount input[type="text"],
+.Createaccount input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+}
+::placeholder{
+    color: rgba(7, 46, 58, 0.767) ;
+}
+.Createaccount input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #54e600;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.Createaccount input[type="submit"]:hover{
+    background: #ffcce0;
+    color: #262626;
+}
+.Createaccount a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
